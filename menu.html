@@ -1,144 +1,228 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Safaris Unravelled (pty) Ltd Markab Cakes</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu - Safaris Unravelled (Pty) Ltd Markab Cakes</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About Us</a>
-        <a href="menu.html">Menu</a>
-        <a href="contact.html">Contact</a>
-        <a href="feedback.html">Feedback</a>
+
+  <header>
+    <nav class="navbar navbar-expand-lg top-nav">
+      <div class="container">
+        <a class="navbar-brand brand-name d-flex align-items-center gap-2" href="index.html">
+          <img src="Unravelled Safari Logo.jpg.png" alt="Markab logo">
+          Markab
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="nav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link active" href="menu.html">Menu</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="feedback.html">Feedback</a></li>
+          </ul>
+        </div>
+      </div>
     </nav>
-   
-<!-- HERO BANNER -->   
-    <section class="hero">
-        <h1>Our Menu</h1>
-        </section>
+  </header>
 
-    <main>
+  <section class="hero-box">
+    <article class="hero-words">
+      <h1>OUR MENU</h1>
+      <p>Take a look at our delicious offerings </p>
+    </article>
+  </section>
 
-       <!-- Food and Beverages -->
-        <section>
-            <h2>DINING</h2>
-            <p>Freshley prepared meals and beverages we serve daily</p>
-           
-            <article>
-                <img src="restaurant food.jpg" alt="Fried chicken served with vegetables and rice">
-                <h3>Fried chicken served with vegetables and rice</h3>
-                <p>Our signature fried chicken is seasoned to perfection and served with fresh vegetables and steamed rice.</p>
-                <span>P79.99</span>
-            </article>
+  <main class="container my-5">
 
-            <article>
-                <img src="restaurant food3.jpg" alt="Traditional beef stew">
-                <h3>Traditional beef stew</h3>
-                <p>Our traditional beef stew is slow-cooked to perfection and served fresh.</p>
-                <span>P89.99</span>
-            </article>
+    <!-- dining -->
+    <section class="mb-5">
+      <h2 class="cat-title">Dining</h2>
+      <p class="mb-4" style="font-size:14px; color:#888;">Freshly prepared meals and beverages we serve daily.</p>
 
-            <article>
-                <img src="restaurant food4.jpg" alt="Creamy pasta">
-                <h3>Creamy pasta</h3>
-                <p>Our creamy pasta is made with the finest ingredients and served hot.</p>
-                <span>P69.99</span>
+      <div class="row g-4">
 
-            </article>
-
-            <article>
-                <img src="restaurant food5.jpg" alt="Juicy Burger">
-                <h3>Juicy Burger</h3>
-                <p>Our juicy burger is made with the finest beef, chicken or pork and served with fresh vegetables and a side of fries.</p>
-                <span>P59.99</span>
-            </article>
-
-            <article>
-                <img src="restaurant food6.jpg" alt="Fresh Salad">
-                <h3>Fresh Salad</h3>
-                <p>Our fresh salad is made with a variety of crisp vegetables and a light dressing.</p>
-                <span>P49.99</span>
-            </article>
-
-            <article>
-                <img src="restaurant food7.jpg" alt="Freshly squeezed juice">
-                <h3>Freshly squeezed juice</h3>
-                <p>Our freshly squeezed juice is made with the finest fruits and served cold.</p>
-                <span>P39.99</span>
-            </article>
-
-        </section>
-
-        <!-- Catering -->
-        <section>
-            <h2>CATERING</h2>
-            <p>We offer catering services for all types of occasions, from birthdays to corporate events. Our catering menu includes a variety of dishes to suit any taste and dietary requirement.</p>
-
-            <div>
-                <article>
-                    <img src="catering photo.jpg" alt="Wedding catering setup">
-                    <h3>Wedding Catering</h3>
-                    <p>Our wedding catering service offers a wide range of delicious dishes to make your special day unforgettable.</p>
-                    <span class="price">Prices vary depending on size of the occasion</span>
-                </article>
-
-                <article>
-                    <img src="catering photo3.jpg" alt="Corporate event catering">
-                    <h3>Corporate Event Catering</h3>
-                    <p>Our corporate event catering service provides a variety of options to suit any business occasion, from meetings to conferences.</p>
-                    <span class="price">Prices vary depending on size of the occasion</span>
-                </article>
-
-                <article>
-                    <img src="catering photo2.jpg" alt="Birthday party catering">
-                    <h3>Birthday Party Catering</h3>
-                    <p>Our birthday party catering service offers a variety of fun and delicious dishes to make your celebration memorable.</p>
-                    <span class="price">Prices vary depending on size of the occasion</span>
-                </article>
-
+        <article class="col-md-4">
+          <div class="food-card">
+            <img src="restaurant food.jpg" alt="Fried chicken served with vegetables and rice">
+            <div class="card-info">
+              <h3>Fried Chicken</h3>
+              <p>Our signature fried chicken is seasoned to perfection and served with fresh vegetables and steamed rice.</p>
+              <span class="food-price">P 79.99</span>
             </div>
-            </section>
+          </div>
+        </article>
 
-            <!-- Custom Cakes -->
-            <section>
-                <h2> Custom Cakes </h2>
-                <p>Custom cakes for all occasions</p>
-                
-                <div>
-                    
-                    <article>
-                        <img src="cake photo.jpg" alt="Custom birthday cake">
-                        <h3>Custom Birthday Cake</h3>
-                        <p>Our custom birthday cakes are made to order and can be designed to suit any theme or preference.</p>
-                        <span class="price">Prices vary depending on size and design</span>
-                    </article>
+        <article class="col-md-4">
+          <div class="food-card">
+            <img src="restaurant food3.jpg" alt="Traditional beef stew">
+            <div class="card-info">
+              <h3>Traditional Beef Stew</h3>
+              <p>Our traditional beef stew is slow-cooked to perfection and served fresh.</p>
+              <span class="food-price">P 89.99</span>
+            </div>
+          </div>
+        </article>
 
-                    <article>
-                        <img src="cake photo2.jpg" alt="Custom wedding cake">
-                        <h3>Custom Wedding Cake</h3>
-                        <p>Our custom wedding cakes are designed to be the centerpiece of your special day, with a variety of flavors to choose from.</p>
-                        <span class="price">Prices vary depending on size and design</span>
-                    </article>
+        <article class="col-md-4">
+          <div class="food-card">
+            <img src="restaurant food4.jpg" alt="Creamy pasta">
+            <div class="card-info">
+              <h3>Creamy Pasta</h3>
+              <p>Our creamy pasta is made with the finest ingredients and served hot.</p>
+              <span class="food-price">P 69.99</span>
+            </div>
+          </div>
+        </article>
 
-                    <article>
-                        <img src="cake photo3.jpg" alt="Custom celebration cake">
-                        <h3>Custom Celebration Cake</h3>
-                        <p>Our custom celebration cakes are perfect for any occasion, from anniversaries to graduations.</p>
-                        <span class="price">Prices vary depending on size and design</span>
-                    </article>
+        <article class="col-md-4">
+          <div class="food-card">
+            <img src="restaurant food5.jpg" alt="Juicy Burger">
+            <div class="card-info">
+              <h3>Juicy Burger</h3>
+              <p>Made with the finest beef, chicken or pork and served with fresh vegetables and fries.</p>
+              <span class="food-price">P 59.99</span>
+            </div>
+          </div>
+        </article>
 
-                </div>
+        <article class="col-md-4">
+          <div class="food-card">
+            <img src="restaurant food6.jpg" alt="Fresh Salad">
+            <div class="card-info">
+              <h3>Fresh Salad</h3>
+              <p>Made with a variety of crisp vegetables and a light dressing.</p>
+              <span class="food-price">P 49.99</span>
+            </div>
+          </div>
+        </article>
 
-                <section>
-                    <p> Want to enquire, place an order or make reservation! Feel free to get in touch with us.</p>
-                    <a href="contact.html">Contact Us</a>
-                </section>
+        <article class="col-md-4">
+          <div class="food-card">
+            <img src="restaurant food7.jpg" alt="Freshly squeezed juice">
+            <div class="card-info">
+              <h3>Freshly Squeezed Juice</h3>
+              <p>Made with the finest fruits and served cold.</p>
+              <span class="food-price">P 39.99</span>
+            </div>
+          </div>
+        </article>
 
-    </main>
+      </div>
+    </section>
 
-    <footer>
-        <p>Selebi Phikwe, Botswana | WhatsApp: +267 700 0000 | &copy; 2026 Safaris Unravelled (pty) Ltd Markab Cakes</p>
+    <hr class="divider">
+
+    <!-- catering -->
+    <section class="mb-5">
+      <h2 class="cat-title">Catering</h2>
+      <p class="mb-4" style="font-size:14px; color:#888;">We offer catering for all types of occasions, from birthdays to corporate events.</p>
+
+      <div class="row g-4">
+
+        <article class="col-md-4">
+          <div class="food-card">
+            <img src="catering photo.jpg" alt="Wedding catering setup">
+            <div class="card-info">
+              <h3>Wedding Catering</h3>
+              <p>A wide range of delicious dishes to make your special day unforgettable.</p>
+              <span class="food-price">Price on request</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="col-md-4">
+          <div class="food-card">
+            <img src="catering photo3.jpg" alt="Corporate event catering">
+            <div class="card-info">
+              <h3>Corporate Event Catering</h3>
+              <p>A variety of options to suit any business occasion, from meetings to conferences.</p>
+              <span class="food-price">Price on request</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="col-md-4">
+          <div class="food-card">
+            <img src="catering photo2.jpg" alt="Birthday party catering">
+            <div class="card-info">
+              <h3>Birthday Party Catering</h3>
+              <p>Fun and delicious dishes to make your celebration memorable.</p>
+              <span class="food-price">Price on request</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <hr class="divider">
+
+    <!-- custom cakes -->
+    <section class="mb-5">
+      <h2 class="cat-title">Custom Cakes</h2>
+      <p class="mb-4" style="font-size:14px; color:#888;">Custom cakes for all occasions.</p>
+
+      <div class="row g-4">
+
+        <article class="col-md-4">
+          <div class="food-card">
+            <img src="cake photo.jpg" alt="Custom birthday cake">
+            <div class="card-info">
+              <h3>Custom Birthday Cake</h3>
+              <p>Made to order and designed to suit any theme or preference.</p>
+              <span class="food-price">Price on request</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="col-md-4">
+          <div class="food-card">
+            <img src="cake photo2.jpg" alt="Custom wedding cake">
+            <div class="card-info">
+              <h3>Custom Wedding Cake</h3>
+              <p>Designed to be the centrepiece of your special day with a variety of flavours.</p>
+              <span class="food-price">Price on request</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="col-md-4">
+          <div class="food-card">
+            <img src="cake photo3.jpg" alt="Custom celebration cake">
+            <div class="card-info">
+              <h3>Custom Celebration Cake</h3>
+              <p>Perfect for any occasion, from anniversaries to graduations.</p>
+              <span class="food-price">Price on request</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Get in touch -->
+    <section class="text-center py-4" style="border-top: 1px solid #dddddd;">
+      <p style="font-size:14px; color:#888; margin-bottom:16px;">
+        Want to enquire, place an order or make a reservation?
+      </p>
+      <a href="contact.html" class="send-btn" style="text-decoration:none;">Contact Us</a>
+    </section>
+
+  </main>
+
+  <footer class="page-footer">
+    <p>Selebi Phikwe, Botswana | WhatsApp: +267 700 0000 | &copy; 2026 Safaris Unravelled (Pty) Ltd Markab Cakes</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

@@ -1,0 +1,278 @@
+/* general styles */
+body {
+  font-family: Georgia, serif;
+  color: #333333;
+  background-color: whitesmoke;
+  margin: 0;
+  padding: 0;
+}
+
+/* navbar */
+.top-nav {
+  border-bottom: 2px solid lightseagreen;
+  background-color: #e4eaed;
+  padding: 10px 0;
+}
+
+.brand-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.brand-name img {
+  height: 50px;
+}
+
+.nav-item a {
+  color: #1e1d1d;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.nav-item a:hover,
+.nav-item a.active {
+  color: #171717;
+  text-decoration: underline;
+}
+
+/* hero banner */
+.hero-box {
+  position: relative;
+  height: 280px;
+  overflow: hidden;
+  border-bottom: 1px solid #f9f2f2;
+  background-color: #6a3c3c
+}
+
+.hero-words {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: rgb(233, 227, 227);
+  width: 85%;
+}
+
+.hero-words h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.hero-words p {
+  font-size: 14px;
+}
+
+.hero-words a {
+  display: inline-block;
+  padding: 8px 20px;
+  border: 2px solid #af5a5a;
+  color: rgb(218, 216, 230);
+  text-decoration: none;
+  font-size: 12px;
+  margin: 4px;
+}
+.hero-words a:hover {
+  background-color: #e6dfdf;
+  color: #01101279;
+}
+
+/* section title */
+.sec-title {
+  font-size: 1rem;
+  color: #8B1A1A;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+/* home page */
+.rest-photo img,
+.rest-img img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.rest-info,
+.contact-box {
+  background-color: #faf7f2;
+  border: 1px solid #a49191;
+  padding: 20px;
+  height: 100%;
+}
+
+.rest-info h2,
+.story-text h2,
+.contact-box h2 {
+  font-size: 1rem;
+  color: #8B1A1A;
+  margin-bottom: 10px;
+}
+
+.rest-info p,
+.story-text p,
+.mv-card p,
+.contact-box address {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #666666;
+}
+
+.serv-box {
+  border: 1px solid #dddddd;
+  padding: 25px;
+  text-align: center;
+  background-color: #faf7f2;
+}
+
+.serv-box a {
+  text-decoration: none;
+  color: #333333;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.serv-box:hover {
+  background-color: #858493;
+}
+
+.serv-box:hover a {
+  color: #ffffff;
+}
+
+/* about page */
+.person-img img {
+  width: 100%;
+  height: 330px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.person-img p,
+.pic-label {
+  font-size: 11px;
+  color: #999999;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.mv-card {
+  background-color: #e9dddd;
+  border: 1px solid #434141;
+  padding: 20px;
+}
+
+.mv-card h3 {
+  font-size: 14px;
+  color: #8B1A1A;
+  margin-bottom: 8px;
+}
+
+/* menu page */
+.cat-title {
+  font-size: 1rem;
+  color: #8B1A1A;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.food-card {
+  border: 1px solid #dddddd;
+}
+
+.food-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-info {
+  padding: 12px;
+  background-color: #faf7f2;
+}
+
+.card-info h3 {
+  font-size: 15px;
+}
+
+.card-info p {
+  font-size: 13px;
+  color: #666666;
+}
+
+.food-price {
+  font-size: 14px;
+  font-weight: bold;
+  color: #8B1A1A;
+}
+
+/* contact page */
+.contact-box address {
+  font-style: normal;
+}
+
+.wa-btn {
+  display: inline-block;
+  background-color: #4e5b49;
+  color: #ffffff;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.wa-btn:hover{
+  background-color: #aade87;
+}
+
+/* forms */
+.form-label {
+  font-size: 12px;
+  color: #888888;
+}
+
+.form-field {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #edd8d8d2;
+  font-size: 14px;
+  margin-bottom: 14px;
+}
+
+.form-field:focus {
+  border-color: #8B1A1A;
+  outline: none;
+}
+
+/* stars */
+.stars label {
+  font-size: 28px;
+  color: #dddddd;
+  cursor: pointer;
+}
+
+/* submit button */
+.send-btn {
+  background-color: #8B1A1A;
+  color: #ffffff;
+  border: none;
+  padding: 10px 25px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+/* footer */
+.page-footer {
+  background-color: #333333;
+  color: #cccccc;
+  text-align: center;
+  padding: 18px;
+  font-size: 13px;
+  margin-top: 40px;
+}
+
+/* divider */
+.divider {
+  border-top: 1px solid #dddddd;
+  margin: 30px 0;
+}

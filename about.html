@@ -1,69 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Safaris Unravelled (pty) ltd Markab Cakes</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - Safaris Unravelled</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About Us</a>
-        <a href="menu.html">Menu</a>
-        <a href="contact.html">Contact Us</a>     
-        <a href="feedback.html">Feedback</a>
+
+  <header>
+    <nav class="navbar navbar-expand-lg top-nav">
+      <div class="container">
+        <a class="navbar-brand brand-name d-flex align-items-center gap-2" href="index.html">
+          <img src="Unravelled Safari Logo.jpg.png" alt="Safaris Unravelled logo">Safaris Unravelled</a>
+
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="nav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="feedback.html">Feedback</a></li>
+          </ul>
+        </div>
+      </div>
     </nav>
-    
-    <section class="hero">
-        <h1>About Us</h1>
-        <p>Our story, our mission, our dedication</p>
+  </header>
+
+  <section class="hero-box">
+    <article class="hero-words">
+      <h1>About Us</h1>
+      <p>Learn more about our story and values</p>
+    </article>
+  </section>
+
+  <main class="container my-5">
+
+    <section class="row g-4 mb-4">
+      <article class="col-md-7 story-text">
+        <h2>Restaurant Story</h2>
+
+        <p>Safaris Uravelled (Pty) Ltd, trading as Markab Cakes and Restaurant, is a restaurant and catering business based in Selebi Phikwe, Botswana. 
+          We have have grown to become a trusted name in the community, serving residents of Selebi Phikwe and surrounding areas such as Mmadinare with quality food and exceptional service.
+          We specialise in restaurant dining, custom cake orders and catering services for events of all sizes. Every meal we prepare and serve is made with care and quality ingredients this includes our custom cakes.</p>
+
+        <p> We here at Safaris Uravelled believe in good food, friendly service and creating memorable
+          experiences with every meal served for our customers during every visit. Whether you are dining in our restaurant, ordering a custom cake or booking our catering services, we garantee you will receive the best quality and service.
+          We are proud to be a part of the Selebi Phikwe community and look forward to serving you for many years to come.
+    </p>
+      </article>
+
+      <article class="col-md-5">
+        <div class="row g-3">
+
+          <div class="col-12 person-img">
+            <img src="restaurant owner.jpg" alt="Owner">
+            <p>The Owner of Safaris Uravelled</p>
+          </div>
+        </div>
+      </article>
     </section>
 
-    <header>
-       <img src="Unravelled Safari Logo.jpg.png" alt="Safaris Unravelled Logo" width="120">
-        <h2>Learn about Safari Unravelled</h2>
-    </header>
+    <hr class="divider">
 
-    <main>
-        
-        <section>
-        <h2>Our Story</h2>
-        <p>Safaris Unravelled (pty) Ltd is a food and hospitality business based in Selebi Phikwe, Botswana. Since the day we opened our doors, 
-            we have grown to become a trusted name in the community serving the residents of Selebi Phikwe and surrounding areas with our 
-            delicious food and excellent service.</p>
-            <p>We specialize in restaurant dining, custom cake orders and catering services for all types of occasions ranging from birthdays
-                 to corporate events. Every meal we serve and cake we bake is made with the utmost care and with the finest ingridieents to
-                ensure a memorable experience for our customers.</p>
+    <section>
+      <h2 class="sec-title">Mission and Vision</h2>
+      <div class="row g-4">
 
-                <div>
-                    <img src="restaurant photo 2.jpg" alt="Safari Unravelled Restaurant" width="300">
-                </div>
-        </section>
+        <article class="col-md-6">
+          <div class="mv-card">
+            <h3>Mission</h3>
+            <p>
+              To provide fresh food, quality cakes and excellent customer service for every occasion that will create memorable experiences for our customers.
+            </p>
+          </div>
+        </article>
 
-        <section>
-            <img src="restaurant owner.jpg" alt="Restaurant Owner" width="300">
-            <h3>Meet Our Owner</h3>
-            <p>Safaris Unravelled was founded by a passionate entrepreneur with a love for 
-                for food and hospitality. With years of expirience in the industry the owner built
-                the restaurant from the ground up.H e began with custom cake orders and later expanding to a full-service restaurant and catering.</p>
-                <p>Today the founder continues to lead Safaris U nravelled with the same passion that inspired it's founding, ensuring that every dish served and cake delivered
-                    meets the highest standards of quality and taste.</p>
-        </section>
+        <article class="col-md-6">
+          <div class="mv-card">
+            <h3>Vision</h3>
+            <p>
+              To become one of the most trusted restaurants and catering brands in Selebi Phikwe and surrounding areas delivering high quality food and exceptional service to every customer.
+              And soon enough to expand to other locations in Botswana and beyond.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
 
-        <section class="mission and vision">
-        
-            <h3>Our Mission</h3>
-                <p>To provide high quality food, custom cakes and catering services taht will bring people together  and create lasting memories.</p>
+  <footer class="page-footer">
+    <p>
+      Selebi Phikwe, Botswana | WhatsApp: +267 000 0000 | &copy; 2026 Safaris Unravelled </p>
+  </footer>
 
-                <h3>Our Vission</h3>
-               </p> We as Safaris Unravelled aspire to be the leading food and hospitality business in Botswana, known for our exceptional service, delicious food and unforgettable experiences that bring joy to our customers and community.</p>
-        </section>
-    </main>
-    <footer>
-        <p>Selebi Phikwe, Botswana | WhatsApp: +267 700 0000 | &copy; 2026 Safaris Unravelled (pty) Ltd Markab Cakes</p>
-    </footer>
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>
