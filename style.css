@@ -2,7 +2,7 @@
 body {
   font-family: Georgia, serif;
   color: #333333;
-  background-color: whitesmoke;
+  background-color: rgb(171, 226, 208);
   margin: 0;
   padding: 0;
 }
@@ -10,14 +10,14 @@ body {
 /* navbar */
 .top-nav {
   border-bottom: 2px solid lightseagreen;
-  background-color: #e4eaed;
+  background-color: #e2e7ea;
   padding: 10px 0;
 }
 
 .brand-name {
   font-size: 18px;
   font-weight: bold;
-  color: #000000;
+  color: #6d4c87;
 }
 
 .brand-name img {
@@ -32,7 +32,7 @@ body {
 
 .nav-item a:hover,
 .nav-item a.active {
-  color: #171717;
+  color: #c7bbe9;
   text-decoration: underline;
 }
 
@@ -41,8 +41,8 @@ body {
   position: relative;
   height: 280px;
   overflow: hidden;
-  border-bottom: 1px solid #f9f2f2;
-  background-color: #6a3c3c
+  border-bottom: 1px solid #181717;
+  background-color: #847c7c
 }
 
 .hero-words {
@@ -67,15 +67,15 @@ body {
 .hero-words a {
   display: inline-block;
   padding: 8px 20px;
-  border: 2px solid #af5a5a;
-  color: rgb(218, 216, 230);
+  border: 2px solid #eee9e9;
+  color: rgb(148, 233, 142);
   text-decoration: none;
   font-size: 12px;
   margin: 4px;
 }
 .hero-words a:hover {
-  background-color: #e6dfdf;
-  color: #01101279;
+  background-color: #e5a8ebec;
+  color: #03202f79;
 }
 
 /* section title */
@@ -97,7 +97,7 @@ body {
 .rest-info,
 .contact-box {
   background-color: #faf7f2;
-  border: 1px solid #a49191;
+  border: 1px solid #4d4b4b;
   padding: 20px;
   height: 100%;
 }
@@ -106,7 +106,7 @@ body {
 .story-text h2,
 .contact-box h2 {
   font-size: 1rem;
-  color: #8B1A1A;
+  color: #1f1818;
   margin-bottom: 10px;
 }
 
@@ -120,37 +120,32 @@ body {
 }
 
 .serv-box {
-  border: 1px solid #dddddd;
+  border: 1px solid #423d3d;
   padding: 25px;
   text-align: center;
-  background-color: #faf7f2;
+  background-color: lightgrey;
 }
 
 .serv-box a {
-  text-decoration: none;
+  text-decoration: underline;
   color: #333333;
   font-size: 13px;
   text-transform: uppercase;
 }
 
 .serv-box:hover {
-  background-color: #858493;
-}
-
-.serv-box:hover a {
-  color: #ffffff;
+  background-color: #f7fbfe;
 }
 
 /* about page */
-.person-img img {
+.owner-img img {
   width: 100%;
-  height: 330px;
+  height: 300px;
   object-fit: cover;
   margin-bottom: 15px;
 }
 
-.person-img p,
-.pic-label {
+.owner-img p{
   font-size: 11px;
   color: #999999;
   text-align: center;
@@ -158,7 +153,7 @@ body {
 }
 
 .mv-card {
-  background-color: #e9dddd;
+  background-color: #d8cef4;
   border: 1px solid #434141;
   padding: 20px;
 }
@@ -178,7 +173,7 @@ body {
 }
 
 .food-card {
-  border: 1px solid #dddddd;
+  border: 1px solid #1a1414;
 }
 
 .food-card img {
@@ -189,7 +184,7 @@ body {
 
 .card-info {
   padding: 12px;
-  background-color: #faf7f2;
+  background-color: #86c7d4;
 }
 
 .card-info h3 {
@@ -214,15 +209,16 @@ body {
 
 .wa-btn {
   display: inline-block;
-  background-color: #4e5b49;
-  color: #ffffff;
+  background-color: #65725f;
+  color: #110202;
   padding: 10px 20px;
   text-decoration: none;
   font-size: 13px;
 }
 
 .wa-btn:hover{
-  background-color: #aade87;
+  background-color: #a7d784;
+  text-decoration: underline;
 }
 
 /* forms */
@@ -261,6 +257,12 @@ body {
   cursor: pointer;
 }
 
+.send-btn:hover {
+  background-color: #6f8fb1;
+  color: #110202;
+  text-decoration: underline;
+}
+
 /* footer */
 .page-footer {
   background-color: #333333;
@@ -273,6 +275,27 @@ body {
 
 /* divider */
 .divider {
-  border-top: 1px solid #dddddd;
+  border-top: 1px solid #101010;
   margin: 30px 0;
 }
+
+/* back to top button */
+#back-to-top { 
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 20px; 
+    background-color: #838783; 
+    color: white; 
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%; 
+    border: none;
+    font-size: 24px; 
+    cursor: pointer; 
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2); 
+    transition: background-color 0.3s; 
+} 
+
+#back-to-top:hover { 
+  background-color: #424145; } 
